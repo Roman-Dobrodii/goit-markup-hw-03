@@ -316,6 +316,13 @@ a {
 footer {
   background-color: var(--footer-bg-color);
 }
+
+.footer-list {
+  display: flex;
+}
+.footer-list .footer-item:not(:last-child) {
+  margin-right: 10px;
+}
 .adress-title {
   color: var(--title-white-color);
   font-size: 14px;
