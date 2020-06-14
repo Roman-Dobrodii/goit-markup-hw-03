@@ -69,6 +69,9 @@ a {
 /* .page-header {} */
 
 /* Site nav */
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
 .main-nav {
   display: flex;
   align-items: center;
@@ -323,18 +326,35 @@ footer {
 .footer-list .footer-item:not(:last-child) {
   margin-right: 10px;
 }
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
 .adress-title {
   color: var(--title-white-color);
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
 .contact {
+  display: block;
   color: var(--footer-text-color);
+  margin-top: 9px;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
+.contact:last-child {
+  margin-bottom: 28px;
+}
+.join {
+  display: grid;
+  margin-left: 69px;
+}
 .text-footer {
   color: var(--title-white-color);
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
