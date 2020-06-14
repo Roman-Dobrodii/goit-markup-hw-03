@@ -63,9 +63,25 @@ a {
 .logo-white {
   color: var(--title-white-color);
 }
+/* Header */
+/* .page-header {} */
 
 /* Site nav */
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav {
+  display: flex;
+}
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
 .site-nav .link {
+  display: block;
+  padding-top: 41px;
+  padding-bottom: 23px;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -77,8 +93,22 @@ a {
 .site-nav .link:focus {
   color: var(--accent);
 }
+
 .site-nav .link.current {
   color: var(--accent);
+}
+
+.contacts {
+  display: flex;
+}
+
+.contact-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.contact-list .item + .item {
+  margin-left: 30px;
 }
 
 .contact-nav {
@@ -287,6 +317,9 @@ button {
   background-color: var(--accent);
 }
 /* Projects */
+.projects-list img {
+  display: block;
+}
 .projects {
   padding-top: 94px;
   padding-bottom: 94px;
