@@ -50,6 +50,8 @@ a {
 
 /* logo */
 .logo {
+  padding-top: 33px;
+  padding-bottom: 16px;
   color: #000000;
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -71,9 +73,9 @@ a {
   display: flex;
   align-items: center;
 }
-
 .site-nav {
   display: flex;
+  margin-left: 85px;
 }
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
@@ -88,37 +90,43 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent);
 }
-
 .site-nav .link.current {
   color: var(--accent);
 }
-
 .contacts {
   display: flex;
+  margin-left: auto;
 }
-
 .contact-list {
   display: flex;
-  margin-left: auto;
+
+  padding-top: 41px;
+  padding-bottom: 23px;
 }
 
 .contact-list .item + .item {
   margin-left: 30px;
 }
-
-.contact-nav {
+.contact-list .contact-nav {
+  display: flex;
+  align-items: center;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
+.contact-icon {
+  margin-right: 10px;
+}
+.contact-icon:hover,
+.contact-icon:focus {
+  color: var(--accent);
+}
 .contact-nav:hover,
 .contact-nav:focus {
   color: var(--accent);
@@ -132,6 +140,7 @@ a {
 }
 
 .hero-title {
+  padding-top: 200px;
   margin-bottom: 30px;
   color: var(--title-white-color);
   font-weight: 900;
