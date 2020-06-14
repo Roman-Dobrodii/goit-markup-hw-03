@@ -45,7 +45,7 @@ a {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid greenyellow;
+  /* outline: 2px solid greenyellow; */
 }
 
 /* logo */
@@ -136,7 +136,7 @@ a {
 .hero {
   background-color: var(--title-text-color);
   text-align: center;
-  outline: 2px solid greenyellow;
+  /* outline: 2px solid greenyellow; */
 }
 
 .hero-title {
@@ -356,6 +356,7 @@ footer {
   color: rgba(255, 255, 255, 0.4);
   padding-top: 18px;
   padding-bottom: 21px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* Portfolio styles */
