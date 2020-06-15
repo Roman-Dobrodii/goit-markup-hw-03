@@ -283,10 +283,13 @@ a {
 }
 .social-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .social-link {
   color: var(--title-text-color);
+}
+.social-list .item:not(:last-child) {
+  margin-right: 10px;
 }
 .social-link:hover,
 .social-link:focus {
