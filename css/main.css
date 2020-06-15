@@ -210,6 +210,9 @@ a {
   display: flex;
   justify-content: space-between;
 }
+.work-list img {
+  display: block;
+}
 .work-list .work-item:not(:last-child) {
   margin-right: 30px;
 }
